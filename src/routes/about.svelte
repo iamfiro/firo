@@ -108,7 +108,6 @@
         #whereiskorea {
             padding: 15px 20px 20px 20px;
             background-color: #D6FF3C;
-            border: 1.5px solid #bde822;
             .title {
                 font-size: 20px;
                 color: #191919;

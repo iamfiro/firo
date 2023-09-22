@@ -40,7 +40,7 @@
             <img src={INFP} width="100%" style="margin-top: 20px; border-radius: 10px" alt="INFP Email meme">
         </article>
         <a href="https://bit.ly/3ukB4Za" target="_blank" style="width: calc(100% - 40px); max-width: 350px; margin-right: 20px;">
-            <button id="magicbutton">Would you like to press it?</button>
+            <button id="magicbutton">Would you like to press this button?</button>
         </a>
     </div>
 </section>

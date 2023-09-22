@@ -1,0 +1,21 @@
+body, html {
+    margin: 0px;
+    /* cursor: none; */
+    scroll-behavior: smooth;
+}
+
+@font-face {
+    font-family: 'PPNeueMontreal';
+    font-style: normal;
+    font-weight: 700;
+    src: url('../fonts/PPNeueMontreal-Book.otf'); /* IE9 Compat Modes */
+}
+
+@font-face {
+    font-family: 'PPNeueMontreal';
+    font-style: normal;
+    font-weight: 300;
+    src: url('../fonts/PPNeueMontreal-Medium.otf'); /* IE9 Compat Modes */
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap');

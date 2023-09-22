@@ -35,7 +35,7 @@
         <article id="infp">
             <div style="display: flex; justify-content: space-between; align-items: center;">
                 <span class="title">I am INFP</span>
-                <span style="color: #ffffff90">yeah... it's me</span>
+                <span style="color: #ffffff90"><del>yeah... it's me</del></span>
             </div>
             <img src={INFP} width="100%" style="margin-top: 20px; border-radius: 10px" alt="INFP Email meme">
         </article>

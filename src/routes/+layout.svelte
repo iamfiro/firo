@@ -2,6 +2,7 @@
 	import Header from './Header.svelte';
 	import First from "./first.svelte";
 	import About from './about.svelte';
+	import Tech from './tech.svelte';
 	import './styles.css';
 </script>
 
@@ -9,6 +10,7 @@
 	<Header />
 	<First />
 	<About />
+	<Tech />
 </div>
 
 <style>

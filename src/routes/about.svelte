@@ -3,7 +3,7 @@
     import INFP from '../images/INFP.png'
 </script>
 
-<section>
+<section id="about">
     <div id="left">
         <div id="title">
             <span>01</span>
@@ -39,7 +39,7 @@
             </div>
             <img src={INFP} width="100%" style="margin-top: 20px; border-radius: 10px" alt="INFP Email meme">
         </article>
-        <a href="https://bit.ly/3ukB4Za" target="_blank" style="width: calc(100% - 40px); max-width: 350px; margin-right: 20px;">
+        <a href="https://bit.ly/3ukB4Za" target="_blank" style="width: 100%;  max-width: 350px; margin-right: 20px;">
             <button id="magicbutton">Would you like to press this button?</button>
         </a>
     </div>
@@ -160,12 +160,12 @@
 
     #magicbutton {
         width: 100%;
-        background-color: #191919;
+        background-color: #fff;
+        border: 1.5px solid #191919;
         border-radius: 100px;
         height: 48px;
-        border: 0px;
         margin-top: 30px;
-        color: #fff;
+        color: #191919;
         transition: .2s all;
         &:hover {
             transform: scale(1.03);

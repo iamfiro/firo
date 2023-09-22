@@ -1,8 +1,8 @@
 <header>
 	<a href="#home">HOME</a>
-	<a href="#home">ABOUT</a>
-	<a href="#home">TECHNOLOGY</a>
-	<a href="#home">SOCIAL</a>
+	<a href="#about">ABOUT</a>
+	<a href="#tech">TECHNOLOGY</a>
+	<a href="#social">SOCIAL</a>
 </header>
 
 <style>

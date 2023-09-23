@@ -6,7 +6,7 @@
             <span>TECHNOLOGY</span>
         </div>
         <span id="hello">My Extensive List of<br/>Skill</span>
-        <div style="padding: 40px 0px; display: flex; flex-wrap: wrap; margin-left: -10px;">
+        <div id="stackWrap" style="padding: 40px 0px; display: flex; flex-wrap: wrap; margin-left: -10px;">
             <div id="stack">
                 <img src="/svg/svelte-color.svg" alt="svelte">
             </div>
@@ -100,5 +100,29 @@
         font-size: 45px;
         line-height: 50px;
         font-weight: 700;
+    }
+
+    @media(max-width: 1000px) {
+        #elseStack {
+            font-size: 40px;
+        }
+    }
+
+    @media(max-width: 600px) {
+        #elseStack {
+            line-height: 40px;
+            font-size: 30px;
+        }
+        #stackWrap {
+            justify-content: center;
+        }
+        #stack {
+            width: 110px;
+            height: 110px;
+            img {
+                width: 50px;
+                height: 50px;
+            }
+        }
     }
 </style>

@@ -3,6 +3,7 @@
 	import First from "./first.svelte";
 	import About from './about.svelte';
 	import Tech from './tech.svelte';
+	import Footer from './footer.svelte';
 	import './styles.css';
 </script>
 
@@ -11,6 +12,7 @@
 	<First />
 	<About />
 	<Tech />
+	<Footer />
 </div>
 
 <style>

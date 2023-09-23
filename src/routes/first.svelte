@@ -1,5 +1,5 @@
 <script lang="ts">
-    import Student_Circle from '../images/student_circle.png';
+    import Student_Circle from '../images/student_circle.webp';
 
     let password = "loading";
 
@@ -62,7 +62,7 @@
         height: 500px;
         background-position: center;
         background-size: cover;
-        background-image: url('../images/abstract.jpg');
+        background-image: url('../images/abstract.webp');
         margin-top: -35px;
         z-index: 100;
         border-radius: 20px;

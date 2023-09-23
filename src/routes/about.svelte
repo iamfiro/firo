@@ -1,6 +1,6 @@
 <script>
     import { Kr } from 'svelte-flag-icons';
-    import INFP from '../images/INFP.png'
+    import INFP from '../images/INFP.webp'
 </script>
 
 <section id="about">

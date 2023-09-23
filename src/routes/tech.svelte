@@ -1,8 +1,3 @@
-<script>
-    import Server from './server.svelte';
-    import INFP from '../images/INFP.png'
-</script>
-
 <section id="tech">
     <div id="left">
         <div id="title">
@@ -11,22 +6,33 @@
             <span>TECHNOLOGY</span>
         </div>
         <span id="hello">My Extensive List of<br/>Skill</span>
-        <div id="category" style="margin-top: 50px; background-color: #CEF56A; border-radius: 0px 30px 0px 0px;">
-            <span id="type">Frontend</span>
-            <span id="stack">Svelte · Next.js · React.js · Styled-components · Vercel · Netlify · Typescript · Javascript · HTML5 · CSS3</span>
+        <div style="padding: 40px 0px; display: flex; flex-wrap: wrap; margin-left: -10px;">
+            <div id="stack">
+                <img src="/svg/svelte-color.svg" alt="svelte">
+            </div>
+            <div id="stack">
+                <img src="/svg/nextdotjs-color.svg" alt="nextjs">
+            </div>
+            <div id="stack">
+                <img src="/svg/react-color.svg" alt="react">
+            </div>
+            <div id="stack">
+                <img src="/svg/nodedotjs-color.svg" alt="svelte">
+            </div>
+            <div id="stack">
+                <img src="/svg/typescript-color.svg" alt="typescript">
+            </div>
+            <div id="stack">
+                <img src="/svg/mysql-color.svg" alt="mysql">
+            </div>
+            <div id="stack">
+                <img src="/svg/git-color.svg" alt="git">
+            </div>
+            <div id="stack">
+                <img src="/svg/figma-color.svg" alt="figma">
+            </div>
         </div>
-        <div id="category" style="background-color: #E34C4E;">
-            <span id="type" style="color: #fff">Backend</span>
-            <span id="stack" style="color: #fff">Node.js · Express.js · Nginx · Prisma · Mysql · PlanetScale · Postman</span>
-        </div>
-        <div id="category" style="background-color: #837EF2;">
-            <span id="type" style="color: #fff">Design / Collaboration</span>
-            <span id="stack" style="color: #fff">Figma · Zeplin · Git · Github · Visual Studio Code</span>
-        </div>
-        <div id="category" style="background-color: #FEC3C1; border-radius: 0px 0px 0px 30px;">
-            <span id="type">Etc</span>
-            <span id="stack">Arduino · C · Electron · Lua · PHP · Python · Selenium</span>
-        </div>
+        <span id="elseStack">C / ELECTRON / LUA / NGINX / PHP / POSTMAN / PRISMA / PYTHON / STYLED-COMPONENTS / UBUNTU / VERCEL / NETLIFY / PLANETSCALE / VISUAL STUDIO / PYCHARM / ARDUINO / HTML5 / CSS3 / JAVA</span>
     </div>
     
 </section>
@@ -34,7 +40,8 @@
 <style lang="scss">
     section {
         display: flex;
-        margin-top: 80px;
+        padding-top: 60px;
+        margin-top: 20px;
         width: 90%;
         min-height: 100vh;
         font-family: 'PPNeueMontreal';
@@ -74,23 +81,24 @@
         }
     }
 
-    #category {
-        height: 100%;
-        min-height: fit-content;
-        background-color: #f00;
-        padding: 30px 30px;
-        display: flex;
-        flex-direction: column;
-    }
-
-    #type {
-        font-size: 35px;
-        font-weight: 300;
-    }
-
     #stack {
-        font-size: 23px;
-        font-weight: 700;
+        width: 140px;
+        height: 140px;
+        margin: 10px 15px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: 2px solid #000;
+        img {
+            width: 80px;
+            height: 80px;
+        }
+    }
+
+    #elseStack {
         margin-top: 20px;
+        font-size: 45px;
+        line-height: 50px;
+        font-weight: 700;
     }
 </style>

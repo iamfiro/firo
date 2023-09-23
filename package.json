@@ -23,6 +23,8 @@
 	},
 	"type": "module",
 	"dependencies": {
+		"animate.css": "^4.1.1",
+		"motion": "^10.16.4",
 		"svelte-flag-icons": "^0.7.2"
 	}
 }

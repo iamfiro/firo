@@ -43,7 +43,7 @@
         padding-top: 60px;
         margin-top: 20px;
         width: 90%;
-        min-height: 100vh;
+        min-height: fit-content;
         font-family: 'PPNeueMontreal';
         font-weight: 300;
         justify-content: space-between;

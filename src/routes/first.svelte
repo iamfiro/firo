@@ -1,6 +1,5 @@
 <script lang="ts">
     import Student_Circle from '../images/student_circle.webp';
-
     let password = "loading";
 
     const charGroups = [
@@ -28,11 +27,11 @@
 		}  
 		password = code;
 	}
-    makeRandomPw(10)
+    makeRandomPw(10);
 </script>
 
 <section id="home">
-    <h1 id="title">Design & Technology</h1>
+    <h1 id="title" class="animate__fadeInUp">Design & Technology</h1>
     <div id="img">
         <span id="text">{password}</span>
         <span id="text">Scroll Down ...</span>
@@ -74,6 +73,7 @@
         font-family: 'PPNeueMontreal';
         font-size: 20px;
         margin: 20px 25px;
+        opacity: 0;
     }
     #student {
         width: 120px;

@@ -5,7 +5,7 @@
             <div id="divide"></div>
             <span>TECHNOLOGY</span>
         </div>
-        <span id="hello">My Extensive List of<br/>Skill</span>
+        <span id="hello">My Extensive List of<br/>Skill <span style="font-size: 40px;">😋</span></span>
         <div id="stackWrap" style="padding: 40px 0px; display: flex; flex-wrap: wrap; margin-left: -10px;">
             <div id="stack">
                 <img src="/svg/svelte-color.svg" alt="svelte">

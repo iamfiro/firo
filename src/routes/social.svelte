@@ -11,7 +11,7 @@
                 <div id="divide"></div>
                 <span>SOCIAL</span>
             </div>
-            <span id="hello">How to reach<br/>Me</span>
+            <span id="hello">How to reach<br/>Me <span style="font-size: 40px;">🤔</span></span>
         </div>
         <div>
             <div id="spotifymessagewrap">

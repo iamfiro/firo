@@ -58,7 +58,7 @@
                 </div>
             </div>
         </a>
-        <a href="https://github.com/firo" target="_blank">
+        <a href="https://github.com/iamfiro" target="_blank">
             <div class="socialcard" style="background-color: #000;">
                 <div>
                     <img src="/svg/github.svg" width="30" alt="github logo">

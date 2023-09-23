@@ -10,47 +10,22 @@
             <div id="divide"></div>
             <span>TECHNOLOGY</span>
         </div>
-        <span id="hello">
-            My Extensive List of<br/>Skill</span>
-        <span id="type">strong</span>
-        <div style="display: flex; flex-wrap: wrap">
-            <Server svg="nextdotjs"/>
-            <Server svg="prisma"/>
-            <Server svg="react"/>
-            <Server svg="styledcomponents"/>
-            <Server svg="nodedotjs"/>
-            <Server svg="typescript"/>
-            <Server svg="javascript"/>
-            <Server svg="html5"/>
-            <Server svg="css3"/>
+        <span id="hello">My Extensive List of<br/>Skill</span>
+        <div id="category" style="margin-top: 50px; background-color: #CEF56A; border-radius: 0px 30px 0px 0px;">
+            <span id="type">Frontend</span>
+            <span id="stack">Svelte · Next.js · React.js · Styled-components · Vercel · Netlify · Typescript · Javascript · HTML5 · CSS3</span>
         </div>
-        <span id="type">Good</span>
-        <div style="display: flex; flex-wrap: wrap">
-            <Server svg="svelte"/>
-            <Server svg="electron"/>
-            <Server svg="python"/>
-            <Server svg="selenium"/>
-            <Server svg="git"/>
-            <Server svg="c"/>
-            <Server svg="figma"/>
-            <Server svg="mysql"/>
+        <div id="category" style="background-color: #E34C4E;">
+            <span id="type" style="color: #fff">Backend</span>
+            <span id="stack" style="color: #fff">Node.js · Express.js · Nginx · Prisma · Mysql · PlanetScale · Postman</span>
         </div>
-        <span id="type">Other</span>
-        <div style="display: flex; flex-wrap: wrap">
-            <Server svg="arduino"/>
-            <Server svg="php"/>
-            <Server svg="lua"/>
-            <Server svg="bootstrap"/>
-            <Server svg="nginx"/>
-            <Server svg="github"/>
-            <Server svg="netlify"/>
-            <Server svg="vercel"/>
-            <Server svg="planetscale"/>
-            <Server svg="postman"/>
-            <Server svg="visualstudiocode"/>
-            <Server svg="pycharm"/>
-            <Server svg="ubuntu"/>
-            <Server svg="windows"/>
+        <div id="category" style="background-color: #837EF2;">
+            <span id="type" style="color: #fff">Design / Collaboration</span>
+            <span id="stack" style="color: #fff">Figma · Zeplin · Git · Github · Visual Studio Code</span>
+        </div>
+        <div id="category" style="background-color: #FEC3C1; border-radius: 0px 0px 0px 30px;">
+            <span id="type">Etc</span>
+            <span id="stack">Arduino · C · Electron · Lua · PHP · Python · Selenium</span>
         </div>
     </div>
     
@@ -68,7 +43,7 @@
     }
 
     #left {
-        width: 95%;
+        width: 100%;
         height: 100%;
         background-color: #fff;
         display: flex;
@@ -99,9 +74,23 @@
         }
     }
 
+    #category {
+        height: 100%;
+        min-height: fit-content;
+        background-color: #f00;
+        padding: 30px 30px;
+        display: flex;
+        flex-direction: column;
+    }
+
     #type {
-        font-size: 25px;
+        font-size: 35px;
+        font-weight: 300;
+    }
+
+    #stack {
+        font-size: 23px;
         font-weight: 700;
-        margin: 20px 0px;
+        margin-top: 20px;
     }
 </style>

@@ -39,7 +39,7 @@
             </div>
             <img src={INFP} width="100%" style="margin-top: 20px; border-radius: 10px" alt="INFP Email meme">
         </article>
-        <a href="https://bit.ly/3ukB4Za" target="_blank" style="width: 100%;  max-width: 350px; margin-right: 20px;">
+        <a id="magicbuttonwrap" href="https://bit.ly/3ukB4Za" target="_blank" style="width: 100%; max-width: 350px; margin-right: 20px;">
             <button id="magicbutton">Would you like to press this button?</button>
         </a>
     </div>
@@ -147,6 +147,26 @@
             .title {
                 font-size: 20px;
                 color: #fff;
+            }
+        }
+    }
+
+    @media(max-width: 700px) {
+        #about {
+            flex-direction: column;
+        }
+        #left, #right {
+            width: 100%;
+        }
+
+        #right {
+            margin-top: 60px;
+            article {
+                max-width: 100%;
+            }
+            #magicbuttonwrap {
+                max-width: 100% !important;
+                margin-right: 0px !important;
             }
         }
     }

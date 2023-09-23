@@ -86,6 +86,68 @@
         transform-origin: 50% 50%;
     }
 
+    @media (max-width: 970px) {
+        #title {
+            font-size: 80px;
+        }
+        #img {
+            margin-top: -30px;
+        }
+    }
+
+    @media (max-width: 800px) {
+        #title {
+            font-size: 60px;
+        }
+        #img {
+            margin-top: -25px;
+        }
+    }
+
+    @media (max-width: 600px) {
+        #title {
+            font-size: 50px;
+        }
+        #img {
+            margin-top: 30px;
+        }
+    }
+
+    @media (max-width: 550px) {
+        #text {
+            font-size: 17.5px;
+        }
+        #student {
+            width: 80px;
+        }
+    }
+
+    @media (max-width: 500px) {
+        #title {
+            font-size: 40px;
+        }
+        #text {
+            font-size: 15px;
+        }
+        #student {
+            width: 60px;
+            margin-top: -40px;
+        }
+        #img {
+            margin-top: 20px;
+        }
+        
+    }
+
+    @media (max-width: 400px) {
+        #title {
+            font-size: 30px;
+        }
+        #img {
+            margin-top: 20px;
+        }
+    }
+
     @keyframes rotate360 {
         100% {
             transform: rotate(360deg);

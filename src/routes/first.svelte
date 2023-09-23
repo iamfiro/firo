@@ -73,7 +73,6 @@
         font-family: 'PPNeueMontreal';
         font-size: 20px;
         margin: 20px 25px;
-        opacity: 0;
     }
     #student {
         width: 120px;

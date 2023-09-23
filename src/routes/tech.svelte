@@ -32,7 +32,7 @@
                 <img src="/svg/figma-color.svg" alt="figma">
             </div>
         </div>
-        <span id="elseStack">C / ELECTRON / LUA / NGINX / PHP / PRISMA / PYTHON / STYLED-COMPONENTS / UBUNTU / VERCEL / NETLIFY / PLANETSCALE / ARDUINO / HTML5 / CSS3 / JAVA</span>
+        <span id="elseStack">C / ELECTRON / LUA / NGINX / PHP / PRISMA / PYTHON / STYLED-COMPONENTS / UBUNTU / ARDUINO / HTML5 / CSS3 / JAVA</span>
     </div>
     
 </section>

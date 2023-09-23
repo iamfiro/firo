@@ -2,7 +2,7 @@
 	<a href="#home">HOME</a>
 	<a href="#about">ABOUT</a>
 	<a href="#tech">TECHNOLOGY</a>
-	<a href="#social">SOCIAL</a>
+	<a href="#">SOCIAL</a>
 </header>
 
 <style>

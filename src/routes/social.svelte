@@ -22,7 +22,7 @@
         </div>
     </div>
     <div id="right">
-        <a href="https://discord.com/channels/@me" target="_blank">
+        <a href="https://discord.com/invite/mJzGbVjqdf" target="_blank">
             <div class="socialcard" style="background-color: #5865F2;">
                 <div>
                     <img src="/svg/discord.svg" width="30" alt="discord logo">

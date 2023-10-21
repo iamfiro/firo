@@ -6,6 +6,7 @@
 	import Social from './social.svelte';
 	import Footer from './footer.svelte';
 	import './styles.css';
+    import Project from './project.svelte';
 </script>
 
 <div class="app">
@@ -13,6 +14,7 @@
 	<First />
 	<About />
 	<Tech />
+	<Project />
 	<Social />
 	<Footer />
 </div>

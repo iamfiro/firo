@@ -29,7 +29,7 @@
                     </div>
                 </div>
             </a>
-            <a href="https://github.com/iamfiro/Zandi" class="shadow_zandi" id="project" style="background-image: url(/src/images/zandi.png);">
+            <a href="https://github.com/iamfiro/Zandi" class="shadow_zandi" id="project" style={`background-image: url(${Zandi})`}>
                 <div id="bottom">
                     <div>
                         <span id="project_title">Zandi</span>

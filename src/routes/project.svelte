@@ -1,6 +1,7 @@
 <script>
     // @ts-ignore
     import ArrowWhite from '../images/arrow-white.png';
+    import LofiStation from '../images/lofi-station.png'
 </script>
 
 <section id="tech">
@@ -13,7 +14,7 @@
         <span id="hello">Featured Project <span style="font-size: 40px;">🚀</span></span>
 
         <div id="project_container">
-            <a href="https://lofi.firos.dev/" class="shadow_lofi" id="project" style="background-image: url(/src/images/lofi-station.png);">
+            <a href="https://lofi.firos.dev/" class="shadow_lofi" id="project" style={`background-image: url(${LofiStation})`}>
                 <div id="bottom">
                     <div>
                         <span id="project_title">Lofi Station</span>

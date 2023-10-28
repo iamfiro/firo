@@ -2,6 +2,7 @@
     // @ts-ignore
     import ArrowWhite from '../images/arrow-white.png';
     import LofiStation from '../images/lofi-station.png'
+    import Zandi from '../images/zandi.png'
 </script>
 
 <section id="tech">

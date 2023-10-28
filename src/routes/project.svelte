@@ -1,4 +1,5 @@
 <script>
+    // @ts-ignore
     import ArrowWhite from '../images/arrow-white.png';
 </script>
 

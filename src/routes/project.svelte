@@ -15,7 +15,7 @@
         <span id="hello">Featured Project <span style="font-size: 40px;">🚀</span></span>
 
         <div id="project_container">
-            <a href="https://lofi.firos.dev/" class="shadow_lofi" id="project" style={`background-image: url(${LofiStation})`}>
+            <div class="shadow_lofi" id="project" style={`background-image: url(${LofiStation})`}>
                 <div id="bottom">
                     <div>
                         <span id="project_title">Lofi Station</span>
@@ -28,7 +28,7 @@
                         </a>
                     </div>
                 </div>
-            </a>
+            </div>
             <a href="https://github.com/iamfiro/Zandi" class="shadow_zandi" id="project" style={`background-image: url(${Zandi})`}>
                 <div id="bottom">
                     <div>

@@ -29,7 +29,7 @@
                     </div>
                 </div>
             </div>
-            <a href="https://github.com/iamfiro/Zandi" class="shadow_zandi" id="project" style={`background-image: url(${Zandi})`}>
+            <div class="shadow_zandi" id="project" style={`background-image: url(${Zandi})`}>
                 <div id="bottom">
                     <div>
                         <span id="project_title">Zandi</span>
@@ -42,7 +42,7 @@
                         </a>
                     </div>
                 </div>
-            </a>
+            </div>
         </div>
     </div>
 </section>
